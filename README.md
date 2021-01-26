@@ -14,7 +14,7 @@ This is a converter to convert TensorFlow checkpoints provided in [SimCLR](https
    python convert.py ResNet50_4x/model.ckpt-225206 resnet50-4x.pth
    ```
 
-   You will get 3 PyTorch checkpoints, `resnet50-1x.pth`, `resnet50-2x.pth`, `resnet50-4x.pth`. The model definition is in `resent_wider.py`.
+   You will get 3 PyTorch checkpoints, `resnet50-1x.pth`, `resnet50-2x.pth`, `resnet50-4x.pth`. The model definition is in `resnet_wider.py`.
 
 ### Performance
 
